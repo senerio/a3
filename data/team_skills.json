@@ -1,0 +1,996 @@
+[
+  {
+    "linkname": "50m Dash Best Time",
+    "attribute": "Action",
+    "bonus": 24,
+    "year": 1,
+    "event": null,
+    "chara": [
+      "Muku",
+      "Misumi",
+      "Hisoka"
+    ]
+  },
+  {
+    "linkname": "Adult Gardening Bosses",
+    "attribute": "Comedy",
+    "bonus": 36,
+    "year": null,
+    "event": "Dazzling Rose Mansion",
+    "chara": [
+      "Azuma",
+      "Tsumugi",
+      "Guy"
+    ]
+  },
+  {
+    "linkname": "Adult Onigiri Club",
+    "attribute": "Drama",
+    "bonus": 24,
+    "year": 1,
+    "event": null,
+    "chara": [
+      "Misumi",
+      "Sakyo",
+      "Azuma"
+    ]
+  },
+  {
+    "linkname": "Aim to be the Stars of Comedy",
+    "attribute": "Comedy",
+    "bonus": 12,
+    "year": 1,
+    "event": null,
+    "chara": [
+      "Tsuzuru",
+      "Citron"
+    ]
+  },
+  {
+    "linkname": "Alone in the World",
+    "attribute": "Drama",
+    "bonus": 36,
+    "year": 1,
+    "event": null,
+    "chara": [
+      "Sakuya",
+      "Chikage",
+      "Hisoka",
+      "Azuma"
+    ]
+  },
+  {
+    "linkname": "Artistic Step",
+    "attribute": "Action",
+    "bonus": 10,
+    "year": null,
+    "event": "TRY! Shining Collab Stage",
+    "chara": [
+      "Sakuya",
+      "Homare"
+    ]
+  },
+  {
+    "linkname": "Cat's Cradle Certification",
+    "attribute": "Action",
+    "bonus": 15,
+    "year": 2,
+    "event": null,
+    "chara": [
+      "Kumon",
+      "Sakyo"
+    ]
+  },
+  {
+    "linkname": "Caviar Haters",
+    "attribute": "Comedy",
+    "bonus": 12,
+    "year": 1,
+    "event": null,
+    "chara": [
+      "Itaru",
+      "Homare"
+    ]
+  },
+  {
+    "linkname": "Childhood Friends",
+    "attribute": "Action",
+    "bonus": 12,
+    "year": 1,
+    "event": null,
+    "chara": [
+      "Tsumugi",
+      "Tasuku"
+    ]
+  },
+  {
+    "linkname": "Cousins",
+    "attribute": "Drama",
+    "bonus": 24,
+    "year": 1,
+    "event": null,
+    "chara": [
+      "Muku",
+      "Kumon",
+      "Juza"
+    ]
+  },
+  {
+    "linkname": "Dedicated Boys",
+    "attribute": "Action",
+    "bonus": 12,
+    "year": 1,
+    "event": null,
+    "chara": [
+      "Sakuya",
+      "Juza"
+    ]
+  },
+  {
+    "linkname": "Ebisu & Jurōjin",
+    "attribute": "Action",
+    "bonus": 18,
+    "year": null,
+    "event": "Run! Lucky God Seven",
+    "chara": [
+      "Homare",
+      "Muku"
+    ]
+  },
+  {
+    "linkname": "Ex-Yankees",
+    "attribute": "Drama",
+    "bonus": 12,
+    "year": 1,
+    "event": null,
+    "chara": [
+      "Omi",
+      "Sakyo"
+    ]
+  },
+  {
+    "linkname": "Familiar MC",
+    "attribute": "Comedy",
+    "bonus": 10,
+    "year": null,
+    "event": "TRY! Shining Collab Stage",
+    "chara": [
+      "Sakuya",
+      "Masumi"
+    ]
+  },
+  {
+    "linkname": "Freeters",
+    "attribute": "Comedy",
+    "bonus": 24,
+    "year": 1,
+    "event": null,
+    "chara": [
+      "Misumi",
+      "Tsumugi",
+      "Azuma"
+    ]
+  },
+  {
+    "linkname": "Freeters 2",
+    "attribute": "Comedy",
+    "bonus": 51,
+    "year": 2,
+    "event": null,
+    "chara": [
+      "Sakuya",
+      "Misumi",
+      "Tsumugi",
+      "Hisoka",
+      "Azuma"
+    ]
+  },
+  {
+    "linkname": "G's Baptism",
+    "attribute": "Drama",
+    "bonus": 12,
+    "year": 1,
+    "event": null,
+    "chara": [
+      "Taichi",
+      "Tasuku"
+    ]
+  },
+  {
+    "linkname": "Gamer Aptitude Test",
+    "attribute": "Drama",
+    "bonus": 36,
+    "year": null,
+    "event": "Let's go Samurai Cinema Romance",
+    "chara": [
+      "Masumi",
+      "Itaru",
+      "Banri"
+    ]
+  },
+  {
+    "linkname": "Gamer Club",
+    "attribute": "Action",
+    "bonus": 12,
+    "year": 1,
+    "event": null,
+    "chara": [
+      "Itaru",
+      "Banri"
+    ]
+  },
+  {
+    "linkname": "Ginsenkai",
+    "attribute": "Action",
+    "bonus": 36,
+    "year": 1,
+    "event": null,
+    "chara": [
+      "Sakyo",
+      "Azami",
+      "Ken",
+      "Ichiro"
+    ]
+  },
+  {
+    "linkname": "Good Teachers",
+    "attribute": "Drama",
+    "bonus": 12,
+    "year": 1,
+    "event": null,
+    "chara": [
+      "Itaru",
+      "Tsumugi"
+    ]
+  },
+  {
+    "linkname": "Hanasaki Academy Group",
+    "attribute": "Drama",
+    "bonus": 24,
+    "year": 1,
+    "event": null,
+    "chara": [
+      "Sakuya",
+      "Masumi",
+      "Banri"
+    ]
+  },
+  {
+    "linkname": "Hot-Cold Harmony",
+    "attribute": "Drama",
+    "bonus": 10,
+    "year": null,
+    "event": "TRY! Shining Collab Stage",
+    "chara": [
+      "Sakuya",
+      "Yuki"
+    ]
+  },
+  {
+    "linkname": "Junk Fooders",
+    "attribute": "Action",
+    "bonus": 12,
+    "year": 1,
+    "event": null,
+    "chara": [
+      "Itaru",
+      "Taichi"
+    ]
+  },
+  {
+    "linkname": "Junk Fooders 2",
+    "attribute": "Action",
+    "bonus": 15,
+    "year": 2,
+    "event": null,
+    "chara": [
+      "Itaru",
+      "Taichi"
+    ]
+  },
+  {
+    "linkname": "Kabuki Lovers",
+    "attribute": "Action",
+    "bonus": 24,
+    "year": 1,
+    "event": null,
+    "chara": [
+      "Citron",
+      "Yuki",
+      "Tasuku"
+    ]
+  },
+  {
+    "linkname": "Kabuki Lovers 2",
+    "attribute": "Action",
+    "bonus": 27,
+    "year": 2,
+    "event": null,
+    "chara": [
+      "Citron",
+      "Yuki",
+      "Tasuku"
+    ]
+  },
+  {
+    "linkname": "Leaders",
+    "attribute": "Action",
+    "bonus": 36,
+    "year": 1,
+    "event": null,
+    "chara": [
+      "Sakuya",
+      "Tenma",
+      "Banri",
+      "Tsumugi"
+    ]
+  },
+  {
+    "linkname": "Mankai Swimming Club",
+    "attribute": "Comedy",
+    "bonus": 24,
+    "year": 1,
+    "event": null,
+    "chara": [
+      "Sakuya",
+      "Masumi",
+      "Tasuku"
+    ]
+  },
+  {
+    "linkname": "Marshmallow Supply",
+    "attribute": "Action",
+    "bonus": 12,
+    "year": 1,
+    "event": null,
+    "chara": [
+      "Hisoka",
+      "Homare"
+    ]
+  },
+  {
+    "linkname": "Marshmallow Supply 2",
+    "attribute": "Action",
+    "bonus": 15,
+    "year": 2,
+    "event": null,
+    "chara": [
+      "Hisoka",
+      "Homare"
+    ]
+  },
+  {
+    "linkname": "Moisturizing Demons",
+    "attribute": "Action",
+    "bonus": 15,
+    "year": 2,
+    "event": null,
+    "chara": [
+      "Azami",
+      "Azuma"
+    ]
+  },
+  {
+    "linkname": "Ouka High School Group",
+    "attribute": "Action",
+    "bonus": 24,
+    "year": 1,
+    "event": null,
+    "chara": [
+      "Tenma",
+      "Juza",
+      "Taichi"
+    ]
+  },
+  {
+    "linkname": "Overseas Parents",
+    "attribute": "Action",
+    "bonus": 12,
+    "year": 1,
+    "event": null,
+    "chara": [
+      "Masumi",
+      "Tenma"
+    ]
+  },
+  {
+    "linkname": "Overseas Parents 2",
+    "attribute": "Action",
+    "bonus": 15,
+    "year": 2,
+    "event": null,
+    "chara": [
+      "Masumi",
+      "Tenma"
+    ]
+  },
+  {
+    "linkname": "Overseas Vacation Mania",
+    "attribute": "Action",
+    "bonus": 12,
+    "year": 1,
+    "event": null,
+    "chara": [
+      "Kazunari",
+      "Azuma"
+    ]
+  },
+  {
+    "linkname": "Poison Tongue",
+    "attribute": "Action",
+    "bonus": 24,
+    "year": 1,
+    "event": null,
+    "chara": [
+      "Masumi",
+      "Chikage",
+      "Yuki"
+    ]
+  },
+  {
+    "linkname": "Postcard Sweepstakes Society",
+    "attribute": "Comedy",
+    "bonus": 48,
+    "year": 1,
+    "event": null,
+    "chara": [
+      "Tsuzuru",
+      "Muku",
+      "Sakyo",
+      "Tasuku",
+      "Guy"
+    ]
+  },
+  {
+    "linkname": "Raising a Future Prince",
+    "attribute": "Action",
+    "bonus": 15,
+    "year": 2,
+    "event": null,
+    "chara": [
+      "Muku",
+      "Guy"
+    ]
+  },
+  {
+    "linkname": "Reborn Autumn Troupe",
+    "attribute": "Action",
+    "bonus": 60,
+    "year": 1,
+    "event": null,
+    "chara": [
+      "Banri",
+      "Juza",
+      "Taichi",
+      "Omi",
+      "Sakyo",
+      "Azami"
+    ]
+  },
+  {
+    "linkname": "Reborn Spring Troupe",
+    "attribute": "Drama",
+    "bonus": 60,
+    "year": 1,
+    "event": null,
+    "chara": [
+      "Sakuya",
+      "Masumi",
+      "Tsuzuru",
+      "Itaru",
+      "Citron",
+      "Chikage"
+    ]
+  },
+  {
+    "linkname": "Reborn Summer Troupe",
+    "attribute": "Comedy",
+    "bonus": 60,
+    "year": 1,
+    "event": null,
+    "chara": [
+      "Tenma",
+      "Yuki",
+      "Muku",
+      "Misumi",
+      "Kazunari",
+      "Kumon"
+    ]
+  },
+  {
+    "linkname": "Reborn Winter Troupe",
+    "attribute": "Drama",
+    "bonus": 60,
+    "year": 1,
+    "event": null,
+    "chara": [
+      "Tsumugi",
+      "Tasuku",
+      "Homare",
+      "Hisoka",
+      "Azuma",
+      "Guy"
+    ]
+  },
+  {
+    "linkname": "Rival Sandwich",
+    "attribute": "Comedy",
+    "bonus": 36,
+    "year": null,
+    "event": "Let's go Samurai Cinema Romance",
+    "chara": [
+      "Masumi",
+      "Itaru",
+      "Sakyo"
+    ]
+  },
+  {
+    "linkname": "Rookie & Leader (Autumn)",
+    "attribute": "Drama",
+    "bonus": 12,
+    "year": 1,
+    "event": null,
+    "chara": [
+      "Banri",
+      "Azami"
+    ]
+  },
+  {
+    "linkname": "Rookie & Leader (Spring)",
+    "attribute": "Comedy",
+    "bonus": 12,
+    "year": 1,
+    "event": null,
+    "chara": [
+      "Sakuya",
+      "Chikage"
+    ]
+  },
+  {
+    "linkname": "Rookie & Leader (Summer)",
+    "attribute": "Action",
+    "bonus": 12,
+    "year": 1,
+    "event": null,
+    "chara": [
+      "Tenma",
+      "Kumon"
+    ]
+  },
+  {
+    "linkname": "Rookie & Leader (Winter)",
+    "attribute": "Action",
+    "bonus": 12,
+    "year": 1,
+    "event": null,
+    "chara": [
+      "Tsumugi",
+      "Guy"
+    ]
+  },
+  {
+    "linkname": "Rookies",
+    "attribute": "Comedy",
+    "bonus": 36,
+    "year": 1,
+    "event": null,
+    "chara": [
+      "Chikage",
+      "Kumon",
+      "Azami",
+      "Guy"
+    ]
+  },
+  {
+    "linkname": "Room 202's Snack Time",
+    "attribute": "Comedy",
+    "bonus": 36,
+    "year": null,
+    "event": "Exciting! Misoshiosa Island",
+    "chara": [
+      "Omi",
+      "Muku",
+      "Kazunari"
+    ]
+  },
+  {
+    "linkname": "Shogi Club",
+    "attribute": "Drama",
+    "bonus": 48,
+    "year": 1,
+    "event": null,
+    "chara": [
+      "Itaru",
+      "Misumi",
+      "Azami",
+      "Taichi",
+      "Guy"
+    ]
+  },
+  {
+    "linkname": "Shojo Manga Appreciation Group",
+    "attribute": "Comedy",
+    "bonus": 24,
+    "year": 1,
+    "event": null,
+    "chara": [
+      "Muku",
+      "Kazunari",
+      "Sakyo"
+    ]
+  },
+  {
+    "linkname": "Shopping Buddies",
+    "attribute": "Comedy",
+    "bonus": 12,
+    "year": 1,
+    "event": null,
+    "chara": [
+      "Tenma",
+      "Banri"
+    ]
+  },
+  {
+    "linkname": "Sleep Raises a Child Well",
+    "attribute": "Drama",
+    "bonus": 12,
+    "year": 1,
+    "event": null,
+    "chara": [
+      "Masumi",
+      "Hisoka"
+    ]
+  },
+  {
+    "linkname": "Sometimes Smartphone-Addicted During Practice",
+    "attribute": "Drama",
+    "bonus": 36,
+    "year": null,
+    "event": "Petals Flutter, You Slumber",
+    "chara": [
+      "Itaru",
+      "Tasuku",
+      "Masumi"
+    ]
+  },
+  {
+    "linkname": "Sparta, Sometimes Naps",
+    "attribute": "Comedy",
+    "bonus": 36,
+    "year": null,
+    "event": "Petals Flutter, You Slumber",
+    "chara": [
+      "Azuma",
+      "Tasuku",
+      "Masumi"
+    ]
+  },
+  {
+    "linkname": "Spicy Cuisine Research Society",
+    "attribute": "Action",
+    "bonus": 48,
+    "year": 1,
+    "event": null,
+    "chara": [
+      "Citron",
+      "Chikage",
+      "Kumon",
+      "Omi",
+      "Tsumugi"
+    ]
+  },
+  {
+    "linkname": "St. Flora Group",
+    "attribute": "Comedy",
+    "bonus": 24,
+    "year": 1,
+    "event": null,
+    "chara": [
+      "Yuki",
+      "Muku",
+      "Homare"
+    ]
+  },
+  {
+    "linkname": "Summer Troupe's Ammunition Dump",
+    "attribute": "Drama",
+    "bonus": 12,
+    "year": 1,
+    "event": null,
+    "chara": [
+      "Tenma",
+      "Yuki"
+    ]
+  },
+  {
+    "linkname": "Sweet Tooths",
+    "attribute": "Comedy",
+    "bonus": 36,
+    "year": 1,
+    "event": null,
+    "chara": [
+      "Muku",
+      "Juza",
+      "Hisoka",
+      "Azuma"
+    ]
+  },
+  {
+    "linkname": "The Childhood Friends & The Love-Seeker",
+    "attribute": "Action",
+    "bonus": 36,
+    "year": null,
+    "event": "Petals Flutter, You Slumber",
+    "chara": [
+      "Tsumugi",
+      "Tasuku",
+      "Masumi"
+    ]
+  },
+  {
+    "linkname": "The Eccentric Artist Combo",
+    "attribute": "Comedy",
+    "bonus": 24,
+    "year": 1,
+    "event": null,
+    "chara": [
+      "Kazunari",
+      "Azami",
+      "Homare"
+    ]
+  },
+  {
+    "linkname": "The Honor Students and the Demon Instructor",
+    "attribute": "Action",
+    "bonus": 36,
+    "year": null,
+    "event": "Exciting! Misoshiosa Island",
+    "chara": [
+      "Omi",
+      "Muku",
+      "Sakyo"
+    ]
+  },
+  {
+    "linkname": "The Sailor's Super Spicy Curry",
+    "attribute": "Action",
+    "bonus": 18,
+    "year": null,
+    "event": "Queen Camellia",
+    "chara": [
+      "Omi",
+      "Chikage"
+    ]
+  },
+  {
+    "linkname": "The Troupe's Beauty Department, with Tsumugi",
+    "attribute": "Action",
+    "bonus": 36,
+    "year": null,
+    "event": "Dazzling Rose Mansion",
+    "chara": [
+      "Azuma",
+      "Tsumugi",
+      "Yuki"
+    ]
+  },
+  {
+    "linkname": "The Troupe's Culture Club",
+    "attribute": "Comedy",
+    "bonus": 12,
+    "year": 1,
+    "event": null,
+    "chara": [
+      "Tsuzuru",
+      "Homare"
+    ]
+  },
+  {
+    "linkname": "The Troupe's Handicraft Club",
+    "attribute": "Comedy",
+    "bonus": 12,
+    "year": 1,
+    "event": null,
+    "chara": [
+      "Yuki",
+      "Omi"
+    ]
+  },
+  {
+    "linkname": "The Troupe's Mahjong Club",
+    "attribute": "Drama",
+    "bonus": 36,
+    "year": 1,
+    "event": null,
+    "chara": [
+      "Citron",
+      "Kazunari",
+      "Sakyo",
+      "Azuma"
+    ]
+  },
+  {
+    "linkname": "The Troupe's Repair Club",
+    "attribute": "Drama",
+    "bonus": 15,
+    "year": 2,
+    "event": null,
+    "chara": [
+      "Chikage",
+      "Tasuku"
+    ]
+  },
+  {
+    "linkname": "The Troupe's Soccer Club",
+    "attribute": "Action",
+    "bonus": 36,
+    "year": 1,
+    "event": null,
+    "chara": [
+      "Tsuzuru",
+      "Omi",
+      "Azami",
+      "Tasuku"
+    ]
+  },
+  {
+    "linkname": "Troublemakers",
+    "attribute": "Comedy",
+    "bonus": 24,
+    "year": 1,
+    "event": null,
+    "chara": [
+      "Citron",
+      "Misumi",
+      "Homare"
+    ]
+  },
+  {
+    "linkname": "Troublesome to the MAX!",
+    "attribute": "Action",
+    "bonus": 36,
+    "year": null,
+    "event": "Let's go Samurai Cinema Romance",
+    "chara": [
+      "Masumi",
+      "Itaru",
+      "Tsuzuru"
+    ]
+  },
+  {
+    "linkname": "Veludo Arts University",
+    "attribute": "Drama",
+    "bonus": 15,
+    "year": 2,
+    "event": null,
+    "chara": [
+      "Kazunari",
+      "Banri"
+    ]
+  },
+  {
+    "linkname": "Wan Wan Combo",
+    "attribute": "Comedy",
+    "bonus": 12,
+    "year": 1,
+    "event": null,
+    "chara": [
+      "Kazunari",
+      "Taichi"
+    ]
+  },
+  {
+    "linkname": "Woolen Felting Popularity Measures",
+    "attribute": "Drama",
+    "bonus": 36,
+    "year": null,
+    "event": "Exciting! Misoshiosa Island",
+    "chara": [
+      "Omi",
+      "Muku",
+      "Taichi"
+    ]
+  },
+  {
+    "linkname": "Yosei University Group",
+    "attribute": "Drama",
+    "bonus": 12,
+    "year": 1,
+    "event": null,
+    "chara": [
+      "Tsuzuru",
+      "Omi"
+    ]
+  },
+  {
+    "linkname": "Yosei University Group 2",
+    "attribute": "Drama",
+    "bonus": 27,
+    "year": 2,
+    "event": null,
+    "chara": [
+      "Tsuzuru",
+      "Juza",
+      "Omi"
+    ]
+  },
+  {
+    "linkname": "月見で一杯",
+    "attribute": "Drama",
+    "bonus": 36,
+    "year": null,
+    "event": "Dazzling Rose Mansion",
+    "chara": [
+      "Azuma",
+      "Tsumugi",
+      "Misumi"
+    ]
+  },
+  {
+    "linkname": "Reborn Autumn Troupe",
+    "attribute": "Action",
+    "bonus": 48,
+    "year": 1,
+    "event": null,
+    "chara": [
+      "Banri",
+      "Juza",
+      "Taichi",
+      "Omi",
+      "Sakyo"
+    ]
+  },
+  {
+    "linkname": "Reborn Spring Troupe",
+    "attribute": "Drama",
+    "bonus": 48,
+    "year": 1,
+    "event": null,
+    "chara": [
+      "Sakuya",
+      "Masumi",
+      "Tsuzuru",
+      "Itaru",
+      "Citron"
+    ]
+  },
+  {
+    "linkname": "Summer Troupe",
+    "attribute": "Comedy",
+    "bonus": 48,
+    "year": 1,
+    "event": null,
+    "chara": [
+      "Tenma",
+      "Yuki",
+      "Muku",
+      "Misumi",
+      "Kazunari"
+    ]
+  },
+  {
+    "linkname": "Winter Troupe",
+    "attribute": "Drama",
+    "bonus": 48,
+    "year": 1,
+    "event": null,
+    "chara": [
+      "Tsumugi",
+      "Tasuku",
+      "Homare",
+      "Hisoka",
+      "Azuma"
+    ]
+  },
+  {
+    "linkname": "Poison Tongue",
+    "attribute": "Action",
+    "bonus": 12,
+    "year": 1,
+    "event": null,
+    "chara": [
+      "Masumi",
+      "Yuki"
+    ]
+  }
+]

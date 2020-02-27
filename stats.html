@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>A3! Tools</title>
+		<link rel="stylesheet" href="src/style.css" />
+	</head>
+	<body>
+		<main></main>
+		<script src="ext/react.development.js"></script>
+		<script src="ext/react-dom.development.js"></script>
+		<script src="ext/babel.min.js"></script>
+		<script src="src/util.js"></script>
+		<script src="src/filter.js" type="text/jsx"></script>
+		<script src="src/card_list.js" type="text/jsx"></script>
+		<script src="src/save_data.js" type="text/jsx"></script>
+		<script src="src/stats.js" type="text/jsx"></script>
+		<script src="src/app.js" type="text/jsx"></script>
+		<script type="text/jsx">
+			ReactDOM.render(
+				<App
+					stats={true}
+					save={false}
+				/>,
+				document.querySelector('main')
+			);
+		</script>
+	</body>
+</html>
