@@ -16,10 +16,8 @@ function App({stats, save}) {
 		Troupe: ['All']
 	});
 
-	function toggleFilter(key, value) {
+	function toggleFilter(key, value, arrayLength) {
 		let temp = filters[key];
-		let index = ['Selected', 'Attribute', 'Rarity'].indexOf(key)
-		let arrayLength = index != -1 ? index + 2 : 5;
 		if(!filters[key].includes(value)) {
 			// Single choice only
 			if(key == 'Selected') {

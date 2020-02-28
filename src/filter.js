@@ -1,3 +1,14 @@
+let filterOptions = {
+	'rarity': ['N', 'R', 'SR', 'SSR', 'All'],
+	'attribute': ['Comedy', 'Action', 'Drama', 'All'],
+	'troupe': ['Spring', 'Summer', 'Autumn', 'Winter','All'],
+	'spring': ['Sakuya', 'Masumi', 'Tsuzuru', 'Itaru', 'Citron', 'Chikage', 'All'],
+	'summer': ['Tenma', 'Yuki', 'Muku', 'Misumi', 'Kazunari', 'Kumon', 'All'],
+	'autumn': ['Banri', 'Juza', 'Taichi', 'Omi', 'Sakyo', 'Azami', 'All'],
+	'winter': ['Tsumugi', 'Tasuku', 'Homare', 'Hisoka', 'Azuma', 'Guy', 'All'],
+	'selected': ['Selected','Not selected','All']
+}
+
 const FilterSet = ({filters, selected, toggleFilter, isNotVisible, background}) => {
 	return(
 		isNotVisible ? null
@@ -27,61 +38,61 @@ function Filter({filter, toggleFilter}) {
 			<div className="group">
 				<div className="header">Rarity</div>
 				<FilterSet
-					filters={['N', 'R', 'SR', 'SSR', 'All']}
+					filters={filterOptions.rarity}
 					selected={filter.Rarity}
-					toggleFilter={(value) => toggleFilter('Rarity', value)}
+					toggleFilter={(value) => toggleFilter('Rarity', value, filterOptions.rarity.length-1)}
 				/>
 			</div>
 			<div className="group">
 				<div className="header">Attribute</div>
 				<FilterSet
-					filters={['Comedy', 'Action', 'Drama', 'All']}
+					filters={filterOptions.attribute}
 					selected={filter.Attribute}
-					toggleFilter={(value) => toggleFilter('Attribute', value)}
+					toggleFilter={(value) => toggleFilter('Attribute', value, filterOptions.attribute.length-1)}
 				/>
 			</div>
 			<div className="group">
 				<div className="header">Troupe/Member</div>
 				<FilterSet
-					filters={['Spring', 'Summer', 'Autumn', 'Winter', 'Others','All']}
+					filters={filterOptions.troupe}
 					selected={filter.Troupe}
-					toggleFilter={(value) => toggleFilter('Troupe', value)}
+					toggleFilter={(value) => toggleFilter('Troupe', value, filterOptions.troupe.length-1)}
 				/>
 				<FilterSet
-					filters={['Sakuya', 'Masumi', 'Tsuzuru', 'Itaru', 'Citron', 'All']}
+					filters={filterOptions.spring}
 					selected={filter.Spring}
 					isNotVisible={filter.Troupe[0] != 'All' && !filter.Troupe.includes('Spring')}
 					background='#FF98C0'
-					toggleFilter={(value) => toggleFilter('Spring', value)}
+					toggleFilter={(value) => toggleFilter('Spring', value, filterOptions.spring.length-1)}
 				/>
 				<FilterSet
-					filters={['Tenma', 'Yuki', 'Muku', 'Misumi', 'Kazunari', 'All']}
+					filters={filterOptions.summer}
 					selected={filter.Summer}
 					isNotVisible={filter.Troupe[0] != 'All' && !filter.Troupe.includes('Summer')}
 					background='#FFE060'
-					toggleFilter={(value) => toggleFilter('Summer', value)}
+					toggleFilter={(value) => toggleFilter('Summer', value, filterOptions.summer.length-1)}
 				/>
 				<FilterSet
-					filters={['Banri', 'Juza', 'Taichi', 'Omi', 'Sakyo', 'All']}
+					filters={filterOptions.autumn}
 					selected={filter.Autumn}
 					isNotVisible={filter.Troupe[0] != 'All' && !filter.Troupe.includes('Autumn')}
 					background='#FFA870'
-					toggleFilter={(value) => toggleFilter('Autumn', value)}
+					toggleFilter={(value) => toggleFilter('Autumn', value, filterOptions.autumn.length-1)}
 				/>
 				<FilterSet
-					filters={['Tsumugi', 'Tasuku', 'Homare', 'Hisoka', 'Azuma', 'All']}
+					filters={filterOptions.winter}
 					selected={filter.Winter}
 					isNotVisible={filter.Troupe[0] != 'All' && !filter.Troupe.includes('Winter')}
 					background='#88D0FF'
-					toggleFilter={(value) => toggleFilter('Winter', value)}
+					toggleFilter={(value) => toggleFilter('Winter', value, filterOptions.winter.length-1)}
 				/>
 			</div>
 			<div className="group">
 				<div className="header">Selected</div>
 				<FilterSet
-					filters={['Selected','Not selected','All']}
+					filters={filterOptions.selected}
 					selected={filter.Selected}
-					toggleFilter={(value) => toggleFilter('Selected', value)}
+					toggleFilter={(value) => toggleFilter('Selected', value, filterOptions.selected.length-1)}
 				/>
 			</div>
 		</div>
