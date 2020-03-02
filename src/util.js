@@ -14,7 +14,6 @@ function computeCardStats(no, bloom, train) {
 		{ attribute:attribute1, rarity, chara } =  data.cards.find(e => e.number == no),
 		attribute3 = ["Comedy", "Action", "Drama"].filter(e => ![attribute1, attribute2].includes(e))
 	
-	rarity = rarity.replace("++", "")
 	chara = chara.split(" ")[0]
 	let level = rarityModifier(rarity)*20 + bloom*10,
 		trainingBonus = rarityModifier(rarity)*100 * train

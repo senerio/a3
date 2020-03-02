@@ -125,7 +125,10 @@ function App({stats, save}) {
 			loadGameData('team_skills')
 		]).then(values => {
 			data = {
-				cards: values[0],
+				cards: values[0].map(card => ({
+					...card,
+					rarity: card.rarity.replace("++", ""),
+				})),
 				card_stats: values[1],
 				stat_patterns: values[2],
 				team_skills: values[3]
