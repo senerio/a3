@@ -60,12 +60,7 @@ function App({stats, save}) {
 				(filters[card.troupe].includes(chara) ? true : filters[card.troupe] == 'All') &&
 				(filters.Selected[0] == 'All' ? true : ( filters.Selected[0] == 'Selected' ? !!selectedCards[card.number] : !selectedCards[card.number] ) )
 			);
-		}).map(card => {
-			return {
-				"id": card.number,
-				"attribute": abbreviate(card.attribute)
-			}
-		}) : [];
+		}).map(card => card.number) : [];
 
 	function toggleSelected(id) {
 		if(!selectedCards[id]) {
@@ -122,22 +117,32 @@ function App({stats, save}) {
 		})
 	}
 
-	Promise.all([
-		loadGameData('cards'),
-		loadGameData('card_stats'),
-		loadGameData('stat_patterns'),
-		loadGameData('team_skills')
-	]).then(values => {
-		data = {
-			cards: values[0],
-			card_stats: values[1],
-			stat_patterns: values[2],
-			team_skills: values[3]
-		};
-		setLoaded(true);
-	})
+	function init() {
+		Promise.all([
+			loadGameData('cards'),
+			loadGameData('card_stats'),
+			loadGameData('stat_patterns'),
+			loadGameData('team_skills')
+		]).then(values => {
+			data = {
+				cards: values[0],
+				card_stats: values[1],
+				stat_patterns: values[2],
+				team_skills: values[3]
+			};
+			setLoaded(true);
+		});
+		return renderLoading;
+	}
 	
-	return(
+	const renderLoading = (
+		<div id="loading">
+			<span>Now Loading... </span>
+			<span className="spin">✿</span>
+		</div>
+	)
+
+	const renderLoaded = (
 		<div>
 			{save ? <SaveData
 				cards={selectedCards}
@@ -151,11 +156,13 @@ function App({stats, save}) {
 				cards={selectedStats}
 			/> : null}
 			<CardList
-				displayed={filteredCards}
+				filteredCards={filteredCards}
 				selectedCards={selectedCards}
 				toggleSelected={toggleSelected}
 				toggleUpgrades={toggleUpgrades}
 			/>
 		</div>
 	)
+
+	return !isLoaded ? init() : renderLoaded;
 }

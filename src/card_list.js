@@ -40,9 +40,11 @@ const CardInfo = ({levels, toggleUpgrades}) => {
 	: null; 
 }
 
-const Card = ({id, attribute, lockVisibility, toggleSelected, toggleUpgrades, levels}) => {
+const Card = ({id, attribute, cardVisibility, lockVisibility, toggleSelected, toggleUpgrades, levels}) => {
 	return(
-		<div className="card">
+		<div
+			className={`card ${cardVisibility}`}
+		>
 			<div className="card_icon">
 				<img
 					src={`img/card/${id}.png`}
@@ -67,18 +69,19 @@ const Card = ({id, attribute, lockVisibility, toggleSelected, toggleUpgrades, le
 	);
 }
 
-function CardList({displayed, selectedCards, toggleSelected, toggleUpgrades}) {
+function CardList({filteredCards, selectedCards, toggleSelected, toggleUpgrades}) {
 	return(
 		<div id="card_list">
 			{
-				displayed.map((card, key) => (
+				data.cards.map((card, key) => (
 					<Card
-						id={card.id}
-						attribute={card.attribute}
-						lockVisibility={!!selectedCards[card.id] ? "on" : ""}
+						id={card.number}
+						attribute={abbreviate(card.attribute)}
+						cardVisibility={filteredCards.includes(card.number) ? "" : "hide"}
+						lockVisibility={!!selectedCards[card.number] ? "on" : ""}
 						toggleSelected={toggleSelected}
 						toggleUpgrades={toggleUpgrades}
-						levels={selectedCards[card.id]}
+						levels={selectedCards[card.number]}
 						key={key}
 					/>
 				))
